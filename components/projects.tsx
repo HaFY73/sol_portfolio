@@ -185,7 +185,7 @@ export default function Projects() {
               <p className="text-sm text-muted-foreground tracking-wider uppercase">Projects</p>
               <h2 className="text-4xl md:text-5xl font-bold">주요 프로젝트</h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                개인적으로 진행했던 디자인 프로젝트 입니다
+                개인적으로 진행한 디자인 및 개발 프로젝트 입니다
               </p>
             </div>
 
