@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent } from "@/components/ui/card"
-import { Mail, MessageSquare, Send } from "lucide-react"
+import { Mail, Smartphone, Phone, MessageSquare, Send } from "lucide-react"
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -47,6 +47,15 @@ export function Contact() {
                     <div>
                       <h3 className="font-bold mb-1">이메일</h3>
                       <p className="text-sm text-muted-foreground">pdasol0703@naver.com</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                      <Phone className="h-5 w-5 text-primary" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold mb-1">휴대폰</h3>
+                      <p className="text-sm text-muted-foreground">010-9232-7342</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
