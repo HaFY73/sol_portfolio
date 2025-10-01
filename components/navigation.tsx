@@ -48,7 +48,7 @@ export function Navigation() {
               소개
             </button>
             <button
-              onClick={() => scrollToSection("services")}
+              onClick={() => scrollToSection("expertise")}
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               서비스
