@@ -11,50 +11,49 @@ const projectsByCategory = {
       title: "캠핑용품 디자인",
       category: "제품 디자인",
       description: "사용자 친화적인 캠핑용품 디자인",
-      detailedDescription: "아웃도어 활동을 더욱 편리하게 만드는 캠핑용품을 디자인했습니다. 휴대성과 기능성을 모두 고려하여 캠핑 초보자부터 베테랑까지 모두가 만족할 수 있는 제품을 개발했습니다.",
+      detailedDescription:
+        "아웃도어 활동을 더욱 편리하게 만드는 캠핑용품을 디자인했습니다. 휴대성과 기능성을 모두 고려하여 캠핑 초보자부터 베테랑까지 모두가 만족할 수 있는 제품을 개발했습니다.",
       image: "/Camping_1.png",
-      images: [
-        "/Camping_1.png",
-        "/Camping_2.png",
-        "/Camping_3.png"
-      ],
+      images: ["/Camping_1.png", "/Camping_2.png", "/Camping_3.png"],
       tags: ["제품디자인", "캠핑", "아웃도어"],
-      duration: "2024.01 - 2024.02",
+      duration: "2017.04 - 2017.11",
       role: "제품 디자이너",
-      technologies: ["Fusion 360", "Rhino", "KeyShot"],
+      technologies: ["PTC_Creo", "Rhino", "KeyShot", "Photoshop"],
       outcomes: [
         "캠핑용품 디자인 완성 및 프로토타입 제작",
-        "사용자 경험을 통한 편의성 개선"
-      ]
+        "사용자 경험을 통한 편의성 개선",
+      ],
     },
     {
       title: "IoT 식물 재배기",
       category: "제품 디자인",
       description: "스마트 IoT 기반 식물 재배 시스템",
-      detailedDescription: "자동 급수 시스템, 생육 환경 모니터링, 모바일 앱 연동 등의 기능을 포함한 스마트 식물 재배기입니다. 초보자도 쉽게 식물을 키울 수 있도록 설계했습니다.",
+      detailedDescription:
+        "자동 급수 시스템, 생육 환경 모니터링, 모바일 앱 연동 등의 기능을 포함한 스마트 식물 재배기입니다. 초보자도 쉽게 식물을 키울 수 있도록 설계했습니다.",
       image: "/IoTPlant_1.png",
-      images: [
-        "/IoTPlant_1.png",
-        "/IoTPlant_2.png",
-        "/IoTPlant_3.png"
-      ],
+      images: ["/IoTPlant_1.png", "/IoTPlant_2.png", "/IoTPlant_3.png"],
       tags: ["IoT", "스마트홈", "제품디자인"],
-      duration: "2024.02 - 2024.03",
+      duration: "2017.09 - 2017.11",
       role: "제품 디자이너",
-      technologies: ["Fusion 360", "Arduino", "IoT Sensors"],
+      technologies: [
+        "PTC_Creo",
+        "Rhino",
+        "KeyShot",
+        "Photoshop"],
       outcomes: [
         "IoT 식물 재배기 프로토타입 개발",
         "모바일 앱 화면 구성",
-        "자동화 시스템 구축"
-      ]
-    }
+        "자동화 시스템 구축",
+      ],
+    },
   ],
   "웹 개발": [
     {
       title: "취준생·이직자를 위한 경력 관리 & 커뮤니티 플랫폼",
       category: "웹 개발",
       description: "이력서·자소서 관리와 소통이 가능한 웹 서비스",
-      detailedDescription: "취업 준비생과 이직자를 위한 올인원 경력 관리 플랫폼입니다. 이력서 및 자기소개서 버전 관리, AI 기반 첨삭 추천, 커뮤니티 기능을 통해 사용자들이 효율적으로 취업 준비를 할 수 있도록 지원합니다.",
+      detailedDescription:
+        "취업 준비생과 이직자를 위한 올인원 경력 관리 플랫폼입니다. 이력서 및 자기소개서 버전 관리, AI 기반 첨삭 추천, 커뮤니티 기능을 통해 사용자들이 효율적으로 취업 준비를 할 수 있도록 지원합니다.",
       image: "/Init_0.png",
       images: [
         "/Init_0.png",
@@ -70,25 +69,26 @@ const projectsByCategory = {
         "/Init_10.png",
         "/Init_11.png",
         "/Init_12.png",
-        "/Init_13.png"
+        "/Init_13.png",
       ],
       tags: ["웹사이트", "UX/UI", "취업플랫폼"],
-      duration: "2023.09 - 2024.02",
+      duration: "2025.02 - 2025.08",
       role: "풀스택 개발자",
       technologies: ["React", "Next.js", "MySQL", "Spring Boot"],
       outcomes: [
         "월간 활성 사용자 5,000명 달성",
         "이력서 관리 기능 만족도 4.5/5.0",
-        "커뮤니티 게시글 누적 10,000건 돌파"
-      ]
-    }
+        "커뮤니티 게시글 누적 10,000건 돌파",
+      ],
+    },
   ],
   "UX/UI 디자인": [
     {
       title: "웹 상세페이지 및 배너 디자인",
       category: "UI, 웹 디자인",
       description: "제품·서비스를 돋보이게 하는 상세페이지 제작",
-      detailedDescription: "가독성을 높이는 상세페이지 디자인 프로젝트입니다. 사용자 행동 분석을 기반으로 최적의 정보 구조를 설계하고, 반응형 디자인을 통해 모든 디바이스에서 일관된 경험을 제공합니다.",
+      detailedDescription:
+        "가독성을 높이는 상세페이지 디자인 프로젝트입니다. 사용자 행동 분석을 기반으로 최적의 정보 구조를 설계하고, 반응형 디자인을 통해 모든 디바이스에서 일관된 경험을 제공합니다.",
       image: "/page_1.png",
       images: [
         "/page_1.png",
@@ -100,23 +100,31 @@ const projectsByCategory = {
         "/page_7.png",
         "/page_8.png",
         "/page_9.png",
-        "/page_10.png"
+        "/page_10.png",
       ],
       tags: ["상세페이지", "웹페이지", "UI디자인"],
       duration: "2021.04 - 2023.05",
       role: "웹 디자이너",
-      technologies: ["Photoshop", "Illustrator", "Adobe XD", "Figma", "HTML/CSS"],
+      technologies: [
+        "Photoshop",
+        "Illustrator",
+        "Adobe XD",
+        "Figma",
+        "HTML/CSS",
+      ],
       outcomes: [
         "제품 구매율 증가",
         "페이지 체류 시간 2분 → 4분 향상",
-        "모바일 사용성 개선으로 이용자 증가"
-      ]
+        "모바일 사용성 개선으로 이용자 증가",
+      ],
     },
     {
       title: "UX / UI 디자인 & 브랜딩 디자인",
       category: "UX/UI 디자인, 포스터 디자인",
-      description: "사용자 경험 중심의 GUI 설계 및 제작, 브랜드 이미지를 활용한 포스터 제작",
-      detailedDescription: "3D 요소를 활용한 인터랙티브 UI/UX 디자인 프로젝트와 브랜딩을 위한 포스터 디자인 프로젝트입니다. 사용자 리서치부터 프로토타입 제작까지 전 과정을 담당하며, 3D 비주얼을 통해 차별화된 사용자 경험을 구현했으며, 브랜드에 맞게 포스터를 제작했습니다.",
+      description:
+        "사용자 경험 중심의 GUI 설계 및 제작, 브랜드 이미지를 활용한 포스터 제작",
+      detailedDescription:
+        "3D 요소를 활용한 인터랙티브 UI/UX 디자인 프로젝트와 브랜딩을 위한 포스터 디자인 프로젝트입니다. 사용자 리서치부터 프로토타입 제작까지 전 과정을 담당하며, 3D 비주얼을 통해 차별화된 사용자 경험을 구현했으며, 브랜드에 맞게 포스터를 제작했습니다.",
       image: "/UXUI_1.png",
       images: [
         "/UXUI_1.png",
@@ -130,20 +138,27 @@ const projectsByCategory = {
         "Poster_2.jpg",
         "Poster_3.jpg",
         "Poster_4.jpg",
-        "Poster_5.jpg"
+        "Poster_5.jpg",
       ],
       tags: ["UX디자인", "UI디자인", "3D제작", "로고제작", "포스터"],
       duration: "2016.07 - 2020.08",
       role: "UX/UI 디자이너 & 브랜딩 디자이너",
-      technologies: ["Figma", "Photoshop", "Illustrator", "Creo", "Rhino3D", "Keyshot"],
+      technologies: [
+        "Figma",
+        "Photoshop",
+        "Illustrator",
+        "Creo",
+        "Rhino3D",
+        "Keyshot",
+      ],
       outcomes: [
         "사용자 만족도 조사 4.7/5.0 달성",
         "인터랙티브 3D UI로 브랜드 인지도 향상",
-        "디자인 어워드 우수상 수상"
-      ]
-    }
-  ]
-}
+        "디자인 어워드 우수상 수상",
+      ],
+    },
+  ],
+};
 
 type Project = {
   title: string
