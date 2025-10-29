@@ -39,7 +39,9 @@ const projectsByCategory = {
         "PTC_Creo",
         "Rhino",
         "KeyShot",
-        "Photoshop"],
+        "Photoshop",
+        "Illustrator"
+      ],
       outcomes: [
         "IoT 식물 재배기 프로토타입 개발",
         "모바일 앱 화면 구성",
@@ -88,7 +90,7 @@ const projectsByCategory = {
       category: "UI, 웹 디자인",
       description: "제품·서비스를 돋보이게 하는 상세페이지 제작",
       detailedDescription:
-        "가독성을 높이는 상세페이지 디자인 프로젝트입니다. 사용자 행동 분석을 기반으로 최적의 정보 구조를 설계하고, 반응형 디자인을 통해 모든 디바이스에서 일관된 경험을 제공합니다.",
+        "가독성을 높이는 상세페이지 디자인 프로젝트입니다. 사용자 행동 분석을 기반으로 최적의 정보 및 구조를 설계하고, 반응형 디자인을 통해 모든 디바이스에서 일관된 경험을 제공합니다.",
       image: "/page_1.png",
       images: [
         "/page_1.png",
@@ -119,7 +121,7 @@ const projectsByCategory = {
       ],
     },
     {
-      title: "UX / UI 디자인 & 브랜딩 디자인",
+      title: "UX / UI 디자인<br>& 브랜딩 디자인",
       category: "UX/UI 디자인, 포스터 디자인",
       description:
         "사용자 경험 중심의 GUI 설계 및 제작, 브랜드 이미지를 활용한 포스터 제작",
@@ -147,7 +149,7 @@ const projectsByCategory = {
         "Figma",
         "Photoshop",
         "Illustrator",
-        "Creo",
+        "PTC_Creo",
         "Rhino3D",
         "Keyshot",
       ],
